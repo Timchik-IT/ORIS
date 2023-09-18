@@ -1,0 +1,28 @@
+html, body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .8);
+    background-color: #f1f1f1;;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
