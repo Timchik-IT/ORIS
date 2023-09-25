@@ -1,0 +1,15 @@
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/bin/Debug/net7.0/MyServer
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/bin/Debug/net7.0/MyServer.deps.json
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/bin/Debug/net7.0/MyServer.runtimeconfig.json
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/bin/Debug/net7.0/MyServer.dll
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/bin/Debug/net7.0/MyServer.pdb
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/obj/Debug/net7.0/MyServer.csproj.AssemblyReference.cache
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/obj/Debug/net7.0/MyServer.GeneratedMSBuildEditorConfig.editorconfig
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/obj/Debug/net7.0/MyServer.AssemblyInfoInputs.cache
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/obj/Debug/net7.0/MyServer.AssemblyInfo.cs
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/obj/Debug/net7.0/MyServer.csproj.CoreCompileInputs.cache
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/obj/Debug/net7.0/MyServer.dll
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/obj/Debug/net7.0/refint/MyServer.dll
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/obj/Debug/net7.0/MyServer.pdb
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/obj/Debug/net7.0/MyServer.genruntimeconfig.cache
+/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/obj/Debug/net7.0/ref/MyServer.dll
