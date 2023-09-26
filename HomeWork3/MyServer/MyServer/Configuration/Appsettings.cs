@@ -1,4 +1,4 @@
-namespace _1hw.Configuration;
+namespace MyServer.Configuration;
 
 internal class Appsettings
 {

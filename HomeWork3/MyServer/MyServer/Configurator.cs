@@ -1,5 +1,5 @@
 using System.Text.Json;
-using _1hw.Configuration;
+using MyServer.Configuration;
 
 namespace MyServer;
 
