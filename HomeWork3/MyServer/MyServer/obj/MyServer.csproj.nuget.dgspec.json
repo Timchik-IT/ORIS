@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/MyServer.csproj": {}
+    "/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork4/MyServer/MyServer/MyServer.csproj": {}
   },
   "projects": {
-    "/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/MyServer.csproj": {
+    "/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork4/MyServer/MyServer/MyServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/MyServer.csproj",
+        "projectUniqueName": "/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork4/MyServer/MyServer/MyServer.csproj",
         "projectName": "MyServer",
-        "projectPath": "/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/MyServer.csproj",
+        "projectPath": "/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork4/MyServer/MyServer/MyServer.csproj",
         "packagesPath": "/home/timur/.nuget/packages/",
-        "outputPath": "/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork3/MyServer/MyServer/obj/",
+        "outputPath": "/home/timur/Git/ORIS_MinullinTimur_11-209/HomeWork4/MyServer/MyServer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/timur/.nuget/NuGet/NuGet.Config"

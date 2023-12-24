@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Google">
+    
+    <title>Google</title>
+    <link rel="icon" href="src/google-icon.png">
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            height: 100%;
+            max-height: 100%;
+        }
+
+        .content {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        a{
+            padding: 5px;
+            font-size: 14px;
+            font-family: arial,sans-serif;
+            text-decoration: none;
+            color:aliceblue
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        .header {
+            padding: 15px 30px;
+        }
+
+        .main {
+            flex: 1 1 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 100px;
+            row-gap: 30px;
+        }
+
+        .search_board {
+            display: grid;
+            grid-template-columns: 44px 1fr 44px 44px 44px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            height: 44px;
+            width: 579px;
+            align-self: center;
+        }
+
+        .search_text_input {
+            margin: 0;
+            padding: 0;
+            background-color: inherit;
+            border: none;
+            font-size: 16px;
+            font-family: inherit;
+            color: #ffffff;
+            height: 44px;
+            width: 403px;
+        }
+
+        .search_text_input:focus {
+            outline: none;
+        }
+
+        .buttons {
+            background-color: #303134;
+            border: 1px solid #303134;
+            border-radius: 4px;
+            color: #e8eaed;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center; 
+            cursor: pointer;
+        }
+
+        .footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: #0e1011;
+            color: #9aa0a6;
+        }
+
+        .footer_country {
+            width: 100%;
+            margin: 0;
+            padding: 15px 30px;
+            border-bottom: 1px solid #dadce0;
+            font-size: 15px;
+        }
+
+        .down_link {
+            text-decoration: none;
+            color: #70757a;
+            padding: 15px;
+        }
+
+        .footer_first_list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            min-width: 30%;
+            order: 1;
+        }
+
+        .footer_second_list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            min-width: 30%;
+            order: 2;
+        }
+        
+        .links{
+            display: flex;
+            gap: 10px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 13px;
+        }
+
+        .top_buttons{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            column-gap: 10px;
+            align-items: center;
+            margin-top: -8px;
+        }
+
+        .login_button{
+            width: 90px;
+            height: 36px;
+            background-color: #1a73e8;
+            color: #ffffff;
+            border: 1px solid #1a73e8;
+            margin-right: -5px;
+            border-radius: 4px;
+            min-width: 96px;
+            padding: 9px;
+            text-align: center;
+        }
+        
+        .login_button:hover {
+            background-color: #144586;
+        }
+
+        .apps_icon {
+            margin: auto;
+            display: block;
+            background-color: #f5f6fa;
+        }
+        
+        .search_icon {
+            place-self: center;
+            fill: #9aa0a6;
+        }
+
+        .search_buttons {
+            background-color: inherit;
+            border: none;
+            cursor: pointer;
+            color: #ffffff;
+        }
+
+        .under_search_buttons :hover{
+            border: 1px solid #e4e5eb;
+        }
+
+        .under_search_buttons :hover{
+            text-decoration: none;
+            border: 1px solid #eceef1;
+        }
+
+        
+
+    </style>
+
+</head>
+<body bgcolor="#202124">
+    <div class="content">
+        <header class="header">
+            <div class="top_buttons">
+                <ul class="links">
+                    <li><a href="https://www.google.com/intl/ru/gmail/about/">Почта</a></li>
+                    <li><a href="https://www.google.com/imghp?hl=ru&ogbl">Картинки</a></li>
+                </ul>
+                <button title="Приложения Google" class="apps_button" type="button">
+                    <svg class="apps_icon" focusable="false" viewBox="0 0 24 24" width="24" hight="24">
+                        <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                    </svg>
+                </button>
+                <button class="login_button"  type="button">Войти</button>
+            </div>
+        </header>
+        
+        <main class="main">
+            <div class="logo">
+                <center>
+                    <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" alt="Google">
+                </center>
+            </div>
+            <div class="search_board">
+                <svg class="search_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20px" height="20px"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+
+                <form action="https://www.google.com/search">
+                    <input class="search_text_input" type="search" name="q">
+                </form>
+
+                <button class="search_buttons">
+                    <img width="24px" height="24px" src="src/key_board.png">
+                </button>
+                <button class="search_buttons">
+                    <img  width="24px" height="24px" src="src/mic.png">
+                </button>
+                <button class="search_buttons">
+                    <img width="24px" height="24px" src="src/cam1.png">
+                </button>
+            </div>
+            <div class="under_find_board"> 
+                <button class="buttons">
+                    <a class="under_search_buttons" href="https://www.google.com/doodles">Поиск в Google</a>
+                </button>
+                <button class="buttons">
+                    <a class="under_search_buttons" href="https://www.google.com/doodles">Мне повезёт!</a>
+                </button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p class="footer_country">Россия</p>
+            <ul class="footer_first_list" type="none">  
+                <li><a class="down_link" href="https://about.google/?utm_source=google-RU&utm_medium=referral&utm_campaign=hp-footer&fg=1">Всё о Google</a></li>
+                <li><a class="down_link" href="https://ads.google.com/intl/ru_ru/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Реклама</a></li>
+                <li><a class="down_link" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Для бизнеса</a></li>
+                <li><a class="down_link" href="https://www.google.com/search/howsearchworks/?fg=1">Как работает Google поиск</a></li>
+            </ul>
+            <ul class="footer_second_list" type="none">
+                <li><a class="down_link" href="https://policies.google.com/privacy?hl=ru&fg=1">Конфиденциальность</a></li>
+                <li><a class="down_link" href="https://policies.google.com/terms?hl=ru&fg=1">Условия</a></li>
+                <li><a class="down_link" href="">Настройки</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

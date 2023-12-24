@@ -13,7 +13,7 @@ public class Configurator
     public static string Address { get; private set; }
     public static int Port { get; private set; }
     public static string StaticFilePath { get; private set; }
-
+    
     private Configurator()
     {
         Configuration = GetConfig();
