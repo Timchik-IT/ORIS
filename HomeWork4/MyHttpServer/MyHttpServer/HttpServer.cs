@@ -8,7 +8,7 @@ public class HttpServer
 {
     private HttpListener Listener { get; set; }
 
-    private const string PathConfigFile = "../../../appsetting.json";
+    private const string PathConfigFile = "../../../appsettings.json";
     
     private AppSettings Config { get; set; }
 
